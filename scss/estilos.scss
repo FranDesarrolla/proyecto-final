@@ -1,0 +1,184 @@
+/* ------- Header de la pagina ------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* ------- Fin del header de la pagina ------- */
+
+/* ------- Modificaciones a la navbar ------- */
+
+.navbar {
+	box-shadow: 0 2px 4px 0;
+	min-height: 100px;
+	font-family: 'Titillium Web', sans-serif;
+	background: #4b5d67;
+	font-size: 23px;
+}
+
+.nav-link:hover {
+	transition: 0.7s;
+}
+
+/* ------- Main de la pagina ------- */
+
+main {
+	font-family: Roboto;
+}
+
+.titulo {
+	height: 100%;
+	font-family: Major Mono Display;
+	font-weight: 900;
+	font-size: 45px;
+	color: #fff;
+}
+
+.content-center {
+	max-width: 800px;
+	margin: 0 auto 60px auto;
+	text-align: center;
+}
+
+.entrada {
+	font-size: 50px;
+	font-weight: 900;
+	margin-top: 100px;
+	color: #fff;
+}
+
+.entrada__subtitulo {
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 250px;
+	font-weight: 100;
+}
+
+.subTitulo {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Poppins', sans-serif;
+	font-size: 80px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 125px;
+}
+
+.puntos {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contenidoPuntos {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	height: 500px;
+}
+
+.seccion{
+	background: #fff;
+}
+
+/* ------- Fin del main de la pagina ------- */
+
+/* ------- Footer de la pagina ------- */
+
+.footer {
+	background: #87556f;
+	font-family: Roboto;
+	width: 100%;
+	max-height: 300px;
+}
+
+.barraDeAyuda {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-weight: 900;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+.redes {
+	width: 64px;
+	height: 64px;
+}
+
+.footerH2 {
+	font-family: Roboto;
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+}
+
+.contenidoFooter {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ------- Fin del footer de la pagina ------- */
+
+/* ------- Productos ------- */
+
+.ventas {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 33% 33% 33%;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 600px;
+	row-gap: 200px;
+	background: #fff;
+}
+
+.tiendaH2 {
+    font-size: 55px;
+	text-align: center;
+    margin-top: 200px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.ola {
+	margin-top: 350px;
+	position: relative;
+}
+
+.venta {
+	width: 300px;
+	height: 275px;
+}
+
+.venta:hover {
+	transition: 1s;
+	transform:scale(1.25);
+}
+
+.mainH2 {
+	background: #fff;
+	padding-bottom: 85px;
+	font-size: 30px;
+	text-align: center;
+	font-family: "Roboto";
+}
