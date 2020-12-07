@@ -84,38 +84,13 @@ main {
 
 /* ------- Fin del main de la pagina ------- */
 /* ------- Footer de la pagina ------- */
-.footer {
-  background: #87556f;
-  font-family: Roboto;
-  width: 100%;
-  max-height: 300px; }
 
-.barraDeAyuda {
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  font-weight: 900;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  color: #fff; }
-
-.redes {
-  width: 64px;
-  height: 64px; }
-
-.footerH2 {
-  font-family: Roboto;
-  font-size: 25px;
-  text-align: center;
+#footer {
+  background: #14151c;
   color: #fff;
-  padding-top: 30px; }
-
-.contenidoFooter {
+  font-size: 14px;
   text-align: center;
-  align-items: center;
-  justify-content: center; }
+  padding: 30px 0;  }
 
 /* ------- Fin del footer de la pagina ------- */
 /* ------- Productos ------- */
@@ -153,10 +128,3 @@ main {
   font-size: 30px;
   text-align: center;
   font-family: "Roboto"; }
-
-#footer {
-  background: #14151c;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  padding: 30px 0;  }
