@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-      <!-- Fonts -->
+        <!-- Fonts -->
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
@@ -28,12 +28,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;900&display=swap" rel="stylesheet">
 
-    <!-- Pagina -->
+      <!-- Pagina -->
 
   </head>
 
-  <body style="background-color: rgba(42, 44, 57, 0.9);">
-    <header id="header" class="header-transparent"> <!-- Barra de Navegacion -->
+  <body>
+    <header id="header"> <!-- Barra de Navegacion -->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
           <a href="index.html"><h1 class="titulo">peiper</h1></a>
@@ -65,29 +65,31 @@
   </header>
 
   <main>  <!-- Contenedor principal -->
-    <div class="container">
-      <div class="content-center">
-        <h1 class="entrada animate__animated animate__fadeInDown">¡Tenemos lo que buscas!</h1>
-        <p class="entrada entrada__subtitulo animate__animated animate__fadeInDown">Pagina destinada a aquellas personas amantes del arte. Ofrecemos muchos recursos útiles para dicho publico, y para todo quien quiera incursionar en este mundo.</p>
-        <a href="productos.html" class="btn btn-dark btn-lg animate__animated fanimate__adeInUp animate__fadeInUp" tabindex="-1" role="button">Ver mas</a>  
+    <section class="seccion__main">
+      <div class="container">
+        <div class="content-center">
+          <h1 class="entrada animate__animated animate__fadeInDown">¡Tenemos lo que buscas!</h1>
+          <p class="entrada entrada__subtitulo animate__animated animate__fadeInDown">Pagina destinada a aquellas personas amantes del arte. Ofrecemos muchos recursos útiles para dicho publico, y para todo quien quiera incursionar en este mundo.</p>
+          <a href="productos.html" class="btn btn-dark btn-lg animate__animated fanimate__adeInUp animate__fadeInUp" tabindex="-1" role="button">Ver mas</a>  
+        </div>
       </div>
-    </div>
 
   <div><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C243.50,151.47 171.84,-91.28 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+      </section>
 
-    <div class="seccion">
-        <h2 class="subTitulo animate__animated animate__fadeInDown">Contamos con:</h2>
-      <div class="contenidoPuntos">
-        <img src="media/pc-vecto.png" alt="">
-        <h3 class="punto1">Disponibilidad desde cualquier plataforma</h3>
+    <h1 class="subTitulo">Contamos con:</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl ilust"><img class="ilust" src="media/servicio.png" alt="Ilustracion de una mano con un celular"></div>
+        <div class="col-xl contenidoPuntos">Servicio las 24 horas</div>
       </div>
-      <div class="contenidoPuntos">
-        <img src="media/arbol-vecto.png" alt="">
-        <h3 class="punto1">Servicio al cliente las 24 horas</h3>
+      <div class="row">
+        <div class="col-xl contenidoPuntos">Todo a un click de distancia</div>
+        <div class="col-xl ilust"><img class="ilust" src="media/todoa1click.png" alt="Ilustracion de un hombre con carrito de compras"></div>
       </div>
-      <div class="contenidoPuntos">
-        <img src="media/lapices-vecto.png" alt="">
-        <h3 class="punto1">Todo lo que necesites y mas, solo a un clic de distancia.</h3>
+      <div class="row">
+        <div class="col-xl"><img class="ilust" src="media/disponibilidad.png" alt="Ilustracion de un hombre en un PC"></div>
+        <div class="col-xl contenidoPuntos">Disponibilidad en cualquier plataforma</div>
       </div>
     </div>
 
@@ -96,12 +98,10 @@
   <footer id="footer"> <!-- Footer -->
     <div class="container">
         <h3 class="titulo">peiper</h3>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <div>
+        <a href="https://twitter.com/" class="twitter"><img class="social__media" src="media/twitter-icon.png" alt="Logo de Twitter"></a>
+        <a href="https://www.facebook.com/" class="facebook"><img class="social__media" src="media/facebook-icon.png" alt="Logo de Facebook"></a>
+        <a href="https://www.instagram.com/" class="instagram"><img class="social__media" src="media/instagram-icon.png" alt="Logo de Instagram"></a>
       </div>
       <div>
         © Copyright <strong><span>Peiper</span></strong>. Todos los derechos reservados.
@@ -109,8 +109,11 @@
     </div>
   </footer>
 
+    <!-- Scripts Bootstrap 4.5 -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   </body>
 </html>

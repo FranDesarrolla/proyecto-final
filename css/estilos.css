@@ -6,23 +6,14 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
-  background-color: rgba(42, 44, 57, 0.9);
-  background: rgba(42, 44, 57, 0.9); }
-
 .titulo {
   height: 100%;
+  text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 45px;
   color: #fff; }
 
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;  }
 /* ------- Fin del header de la pagina ------- */
 /* ------- Modificaciones a la navbar ------- */
 .navbar {
@@ -36,18 +27,27 @@ body {
 
 /* ------- Main de la pagina ------- */
 main {
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif; }
 
+.seccion__main {
+  background-color: rgba(42, 44, 57, 0.9);
+  background: rgba(42, 44, 57, 0.9);
+  padding-top: 250px; }
+
 .content-center {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto 60px auto;
   text-align: center; }
 
+.contamoscon {
+  background-color: #fff; }
+
 .entrada {
   font-family: 'Open Sans', sans-serif;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 900;
-  margin-top: 200px;
+  margin-bottom: 25px;
   color: #fff; }
 
 .entrada__subtitulo {
@@ -63,27 +63,25 @@ main {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding-bottom: 125px; }
-
-.puntos {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; }
+  margin-bottom: 250px; }
 
 .contenidoPuntos {
-  width: 100%;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  font-size: 30px;
-  height: 500px; }
+  font-size: 35px; }
 
 .seccion {
   background: #fff; }
 
+.ilust {
+  width: 350px;
+  height: 350px;}
+
 /* ------- Fin del main de la pagina ------- */
 /* ------- Footer de la pagina ------- */
+
+footer {
+  box-sizing: border-box; }
 
 #footer {
   background: #14151c;
@@ -91,6 +89,11 @@ main {
   font-size: 14px;
   text-align: center;
   padding: 30px 0;  }
+
+.social__media {
+  width: 55px;
+  height: 55px;
+  margin: 25px 20px 25px 20px; }
 
 /* ------- Fin del footer de la pagina ------- */
 /* ------- Productos ------- */
