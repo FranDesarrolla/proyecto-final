@@ -10,6 +10,13 @@ body {
   background-color: rgba(42, 44, 57, 0.9);
   background: rgba(42, 44, 57, 0.9); }
 
+.titulo {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  color: #fff; }
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -29,14 +36,7 @@ body {
 
 /* ------- Main de la pagina ------- */
 main {
-  font-family: Roboto; }
-
-.titulo {
-  height: 100%;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 45px;
-  color: #fff; }
+  font-family: 'Open Sans', sans-serif; }
 
 .content-center {
   max-width: 800px;
