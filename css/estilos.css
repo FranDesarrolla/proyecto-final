@@ -20,7 +20,7 @@
   min-height: 50px;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  background-color: rgba(42, 44, 57, 0.9);  }
+  background-color: rgba(42, 44, 57, 0.9); }
 
 .nav-link:hover {
   transition: 0.7s; }
@@ -75,11 +75,10 @@ main {
 
 .ilust {
   width: 350px;
-  height: 350px;}
+  height: 350px; }
 
 /* ------- Fin del main de la pagina ------- */
 /* ------- Footer de la pagina ------- */
-
 footer {
   box-sizing: border-box; }
 
@@ -88,7 +87,7 @@ footer {
   color: #fff;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;  }
+  padding: 30px 0; }
 
 .social__media {
   width: 55px;

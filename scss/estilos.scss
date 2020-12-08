@@ -8,11 +8,13 @@
 	box-sizing: border-box;
 }
 
-body {
-	background-repeat: no-repeat;
-	background-size: 120%;
-	background-attachment: fixed;
-	background-size: cover;
+.titulo {
+	height: 100%;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 45px;
+	color: #fff;
 }
 
 /* ------- Fin del header de la pagina ------- */
@@ -20,11 +22,10 @@ body {
 /* ------- Modificaciones a la navbar ------- */
 
 .navbar {
-	box-shadow: 0 2px 4px 0;
-	min-height: 100px;
-	font-family: 'Titillium Web', sans-serif;
-	background: #4b5d67;
-	font-size: 23px;
+	min-height: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	background-color: rgba(42, 44, 57, 0.9);
 }
 
 .nav-link:hover {
@@ -34,34 +35,36 @@ body {
 /* ------- Main de la pagina ------- */
 
 main {
-	font-family: Roboto;
-}
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif; }
 
-.titulo {
-	height: 100%;
-	font-family: Major Mono Display;
-	font-weight: 900;
-	font-size: 45px;
-	color: #fff;
+.seccion__main {
+	background-color: rgba(42, 44, 57, 0.9);
+	background: rgba(42, 44, 57, 0.9);
+	padding-top: 250px;
 }
 
 .content-center {
-	max-width: 800px;
+	max-width: 100%;
 	margin: 0 auto 60px auto;
 	text-align: center;
 }
 
+.contamoscon {
+	background-color: #fff;
+}
+
 .entrada {
-	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 70px;
 	font-weight: 900;
-	margin-top: 100px;
+	margin-bottom: 25px;
 	color: #fff;
 }
 
 .entrada__subtitulo {
-	font-size: 30px;
+	font-size: 24px;
 	margin-top: 0;
-	margin-bottom: 250px;
 	font-weight: 100;
 }
 
@@ -73,69 +76,44 @@ main {
 	justify-content: space-around;
 	align-items: center;
 	text-align: center;
-	padding-bottom: 125px;
-}
-
-.puntos {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
+	margin-bottom: 250px;
 }
 
 .contenidoPuntos {
-	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	font-size: 30px;
-	height: 500px;
+	font-size: 35px;
 }
 
-.seccion{
+.seccion {
 	background: #fff;
+}
+
+.ilust {
+	width: 350px;
+	height: 350px;
 }
 
 /* ------- Fin del main de la pagina ------- */
 
 /* ------- Footer de la pagina ------- */
 
-.footer {
-	background: #87556f;
-	font-family: Roboto;
-	width: 100%;
-	max-height: 300px;
+footer {
+	box-sizing: border-box;
 }
 
-.barraDeAyuda {
-	display: flex;
-	flex-wrap: wrap;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	font-weight: 900;
-	justify-content: space-around;
-	align-items: center;
-	text-align: center;
+#footer {
+	background: #14151c;
 	color: #fff;
-}
-
-.redes {
-	width: 64px;
-	height: 64px;
-}
-
-.footerH2 {
-	font-family: Roboto;
-	font-size: 25px;
+	font-size: 14px;
 	text-align: center;
-	color: #fff;
-	padding-top: 30px;
+	padding: 30px 0;
 }
 
-.contenidoFooter {
-	text-align: center;
-	align-items: center;
-	justify-content: center;
+.social__media {
+	width: 55px;
+	height: 55px;
+	margin: 25px 20px 25px 20px;
 }
 
 /* ------- Fin del footer de la pagina ------- */
@@ -154,10 +132,10 @@ main {
 }
 
 .tiendaH2 {
-    font-size: 55px;
+	font-size: 55px;
 	text-align: center;
-    margin-top: 200px;
-    font-family: 'Titillium Web', sans-serif;
+	margin-top: 200px;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .ola {
@@ -172,7 +150,7 @@ main {
 
 .venta:hover {
 	transition: 1s;
-	transform:scale(1.25);
+	transform: scale(1.25);
 }
 
 .mainH2 {
