@@ -8,7 +8,6 @@
 
 .titulo {
   height: 100%;
-  text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 45px;
@@ -17,7 +16,6 @@
 /* ------- Fin del header de la pagina ------- */
 /* ------- Modificaciones a la navbar ------- */
 .navbar {
-  min-height: 50px;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   background-color: rgba(42, 44, 57, 0.9); }
@@ -65,17 +63,18 @@ main {
   text-align: center;
   margin-bottom: 250px; }
 
+.puntos {
+  display: block;
+  margin: 10px auto; }
+
 .contenidoPuntos {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-  font-size: 35px; }
+  font-size: 30px;
+  margin: 35px 0 35px 0; }
 
 .seccion {
   background: #fff; }
-
-.ilust {
-  width: 350px;
-  height: 350px; }
 
 /* ------- Fin del main de la pagina ------- */
 /* ------- Footer de la pagina ------- */
@@ -88,6 +87,9 @@ footer {
   font-size: 14px;
   text-align: center;
   padding: 30px 0; }
+
+.footer__home {
+  margin-top: 150px; }
 
 .social__media {
   width: 55px;
@@ -130,3 +132,21 @@ footer {
   font-size: 30px;
   text-align: center;
   font-family: "Roboto"; }
+
+/* ---- Pagina Contacto ----*/
+.seccion__contact {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  height: 400px;
+  text-align: center;
+  margin-top: 300px; }
+
+.seccion__contact--titule {
+  color: #fff;
+  font-size: 60px; }
+
+.seccion__form {
+  width: 100%; }
+
+.bg__form {
+  background-color: #fff; }

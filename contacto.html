@@ -33,82 +33,62 @@
   </head>
 
   <body style="background-color: rgba(42, 44, 57, 0.9);">
-    <header id="header" class="header-transparent"> <!-- Barra de Navegacion -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-          <a href="index.html"><h1 class="titulo">peiper</h1></a>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Productos</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="productos.html">Catalogo</a>
-              <a class="dropdown-item" href="#">Ofertas</a>
-              <a class="dropdown-item" href="#">Lo mas nuevo!</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="libreria.html">Libreria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contactos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="acercade.html">Acerca de</a>
-          </li>
-        </ul>
-      </div>
-    </nav> <!-- Fin de la Barra de Navegacion -->
+
+  <header id="header">
+
+      <!-- Barra de Navegacion -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-nav ml-auto">
+       <div class="container">
+         <h1 class="titulo">peiper</h1>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item active">
+             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Tienda
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+               <a class="dropdown-item" href="productos.html">Catalogo</a>
+               <a class="dropdown-item" href="#">Ofertas</a>
+               <a class="dropdown-item" href="#">¡Lo mas nuevo!</a>
+             </div>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="libreria.html">Libreria</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contacto.html">Contacto</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="acercade.html">Acerca de</a>
+           </li>
+         </ul>
+       </div>
+       </div>
+     </nav>
+   </header>
 
   </header>
 
   <main>
-    <div class="container"></div>
-    <div>
-      <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
+    <div class="row">
+      <div class="container seccion__contact col-3 justify-content-md-center">
+          <h1 class="seccion__contact--titule">Contactanos!</h1>
+      </div>
+      <form class="bg__form col-9 seccion__form"><!---- Formulario ---->
+        <div class="row g-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
           </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
         </div>
       </form>
     </div>

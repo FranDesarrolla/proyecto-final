@@ -33,36 +33,46 @@
   </head>
 
   <body style="background-color: rgba(42, 44, 57, 0.9);">
-    <header id="header" class="header-transparent"> <!-- Barra de Navegacion -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-          <a href="index.html"><h1 class="titulo">peiper</h1></a>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Productos</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="productos.html">Catalogo</a>
-              <a class="dropdown-item" href="#">Ofertas</a>
-              <a class="dropdown-item" href="#">Lo mas nuevo!</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="libreria.html">Libreria</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contactos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="acercade.html">Acerca de</a>
-          </li>
-        </ul>
-      </div>
-    </nav> <!-- Fin de la Barra de Navegacion -->
 
-  </header>
+    <header id="header">
+
+      <!-- Barra de Navegacion -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-nav ml-auto">
+       <div class="container">
+         <h1 class="titulo">peiper</h1>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item active">
+             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Tienda
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+               <a class="dropdown-item" href="productos.html">Catalogo</a>
+               <a class="dropdown-item" href="#">Ofertas</a>
+               <a class="dropdown-item" href="#">¡Lo mas nuevo!</a>
+             </div>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="libreria.html">Libreria</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contacto.html">Contacto</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="acercade.html">Acerca de</a>
+           </li>
+         </ul>
+       </div>
+       </div>
+     </nav>
+   </header>
 
   <main>
     <div class="container">
