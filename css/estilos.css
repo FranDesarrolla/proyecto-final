@@ -131,6 +131,10 @@ footer {
   font-size: 60px; }
 
 .bg__form {
-  background-color: #fff; }
+  padding-top: 200px;
+  background-color: #fff;
+  width: 500px; }
 
 /*---- Pagina Acerca de ----*/
+.mapa {
+  max-width: 100%; }
