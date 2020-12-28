@@ -161,16 +161,32 @@ footer {
 .seccion__contact--titule {
 	color: #fff;
 	font-size: 60px;
+	font-weight: 600;
 }
 
-.bg__form {
-	padding-top: 200px;
-	background-color: #fff;
-	width: 500px;
+.seccion__contact--subtitule {
+	color: #fff;
+	font-size: 30px;
 }
-
-/*---- Pagina Acerca de ----*/
 
 .mapa {
 	max-width: 100%;
+}
+
+.div__mapa {
+	background-color: #fff;
+	padding: 100px 0 200px 0;
+	width: 100%;
+}
+
+.icon__contact {
+	height: 50px;
+	width: 50px;
+}
+
+.tel {
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 50px;
 }
