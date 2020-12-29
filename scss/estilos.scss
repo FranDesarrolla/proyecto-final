@@ -117,7 +117,7 @@ footer {
 
 /* ------- Fin del footer de la pagina ------- */
 
-/* ------- Productos ------- */
+/* ------- Pagina Productos ------- */
 
 .tienda__h2 {
 	font-family: 'Open Sans', sans-serif;
@@ -252,4 +252,36 @@ footer {
 	color: #ffffff;
 	font-size: 30px;
 	text-align: center;
+}
+
+/*---- Pagina Libreria (EBooks) ----*/
+
+.ebook {
+	background-color: #000000;
+	padding-top: 200px;
+}
+
+.ebook--titule {
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.ebook--subtitule {
+	color: #000;
+	font-size: 60px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.secciones--image {
+	background-color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.image--ebook {
+	width: 100%;
+	box-shadow: 1px 1px 1px 1px;
 }
